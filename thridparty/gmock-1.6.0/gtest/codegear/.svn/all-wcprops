@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear
+END
+gtest_all.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest_all.cc
+END
+gtest_unittest.cbproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest_unittest.cbproj
+END
+gtest.cbproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest.cbproj
+END
+gtest_link.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest_link.cc
+END
+gtest_main.cbproj
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest_main.cbproj
+END
+gtest.groupproj
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/codegear/gtest.groupproj
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/include/gmock/internal
+END
+gmock-port.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/include/gmock/internal/gmock-port.h
+END
+gmock-generated-internal-utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/include/gmock/internal/gmock-generated-internal-utils.h
+END
+gmock-generated-internal-utils.h.pump
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/include/gmock/internal/gmock-generated-internal-utils.h.pump
+END
+gmock-internal-utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/include/gmock/internal/gmock-internal-utils.h
+END
