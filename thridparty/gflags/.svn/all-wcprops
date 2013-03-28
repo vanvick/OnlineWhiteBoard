@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/BUILD
+END
+gflags_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/gflags_test.cpp
+END
+gflags_completions.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/gflags_completions.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/ChangeLog
+END
+gflags_declare.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/gflags_declare.h
+END
+gflags.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/gflags.h
+END
+gflags.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags/gflags.py
+END

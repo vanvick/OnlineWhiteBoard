@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Scripts
+END
+runtests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Scripts/runtests.sh
+END
+versiongenerate.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Scripts/versiongenerate.py
+END

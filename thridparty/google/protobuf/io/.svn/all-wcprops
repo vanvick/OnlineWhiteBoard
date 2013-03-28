@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io
+END
+coded_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/coded_stream.h
+END
+tokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/tokenizer.h
+END
+coded_stream_inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/coded_stream_inl.h
+END
+zero_copy_stream_impl_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/zero_copy_stream_impl_lite.h
+END
+printer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/printer.h
+END
+gzip_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/gzip_stream.h
+END
+zero_copy_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/zero_copy_stream.h
+END
+zero_copy_stream_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/zero_copy_stream_impl.h
+END
+package_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/google/protobuf/io/package_info.h
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample
+END
+runtests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample/runtests.sh
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample/Info.plist
+END
+widget_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample/widget_test.cc
+END
+widget.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample/widget.cc
+END
+widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/xcode/Samples/FrameworkSample/widget.h
+END

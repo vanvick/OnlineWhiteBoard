@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/fused-src/gtest
+END
+gtest-all.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/fused-src/gtest/gtest-all.cc
+END
+gtest.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/fused-src/gtest/gtest.h
+END
+gtest_main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/fused-src/gtest/gtest_main.cc
+END

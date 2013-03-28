@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/base
+END
+googleinit.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/base/googleinit.h
+END
+mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/base/mutex.h
+END
+commandlineflags.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/base/commandlineflags.h
+END

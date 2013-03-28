@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Scripts
+END
+runtests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Scripts/runtests.sh
+END
+versiongenerate.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Scripts/versiongenerate.py
+END

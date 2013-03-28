@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb
+END
+libgflags0.install
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags0.install
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/compat
+END
+libgflags-dev.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags-dev.dirs
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/docs
+END
+libgflags0.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags0.dirs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/rules
+END
+libgflags-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags-dev.install
+END
