@@ -55,5 +55,3 @@ message Documents {
     //ÎÄµµ¾µÏñ
     required bytes data = 2;
 }
-
-}
