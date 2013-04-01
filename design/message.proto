@@ -1,0 +1,51 @@
+message Operation {
+    //唯一编号,非负整数
+    required uint32 serial_number = 1;
+    
+    //操作的数据结构
+    message OperationData {
+        //操作数据的类型
+        enum OperationDataType {
+            LINE = 0;
+            ELLIPSE = 1;
+            RECTANGE = 2;
+            POINT = 3;
+            ERASER = 4;
+        }
+
+        //点的数据结构
+        message Point {
+            required int32 x = 1;
+            required int32 y = 2;
+        }
+
+        required OperationDataType data_type = 1;
+        required int32 thinkness = 2;
+        optional int32 color = 3;
+
+
+        //对于直线
+        optional Point start_point = 4;
+        optional Point end_point = 5;
+
+        //对于椭圆
+        optional Point f_1 = 6;
+        optional Point f_2 = 7;
+        optional int32 a = 8;
+        optional int32 b = 9;
+        
+        //对于长方形
+        optional Point top_left_corner = 10;
+        optional Point bottom_left_corner = 11;
+        optional Point top_right_corner = 12;
+
+        //对于点和橡皮
+        optional Point position = 13;
+
+        //对于椭圆和长方形
+        optional bool fill = 14;
+
+    }
+
+    required OperationData data = 2;
+}
