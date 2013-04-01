@@ -36,16 +36,24 @@ message Operation {
         
         //对于长方形
         optional Point top_left_corner = 10;
-        optional Point bottom_left_corner = 11;
-        optional Point top_right_corner = 12;
+        optional Point bottom_right_corner = 11;
 
         //对于点和橡皮
-        optional Point position = 13;
+        optional Point position = 12;
 
         //对于椭圆和长方形
-        optional bool fill = 14;
+        optional bool fill = 13;
 
     }
 
     required OperationData data = 2;
+}
+
+message Documents {
+    //唯一编号,非负整数
+    required uint32 serial_number = 1;
+    //文档镜像
+    required bytes data = 2;
+}
+
 }
