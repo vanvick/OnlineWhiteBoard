@@ -9,6 +9,9 @@
 #ifndef OwbClient_pref_h
 #define OwbClient_pref_h
 
+#define ScreenHeight    320
+#define ScreenWidth     640
 
+#define unknown 0
 
 #endif

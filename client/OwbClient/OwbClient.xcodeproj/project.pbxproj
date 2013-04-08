@@ -21,6 +21,8 @@
 		D1D67F7A171169D200460199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D67F5B171169D200460199 /* Foundation.framework */; };
 		D1D67F82171169D200460199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1D67F80171169D200460199 /* InfoPlist.strings */; };
 		D1D67F85171169D200460199 /* OwbClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D67F84171169D200460199 /* OwbClientTests.m */; };
+		D1D67F9217116A8E00460199 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D67F9117116A8E00460199 /* HomeViewController.m */; };
+		D1D67FA21712B1D200460199 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D67FA11712B1D100460199 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,11 @@
 		D1D67F81171169D200460199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1D67F83171169D200460199 /* OwbClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OwbClientTests.h; sourceTree = "<group>"; };
 		D1D67F84171169D200460199 /* OwbClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwbClientTests.m; sourceTree = "<group>"; };
+		D1D67F9017116A8E00460199 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D1D67F9117116A8E00460199 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D1D67F941711C0E500460199 /* pref.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pref.h; sourceTree = "<group>"; };
+		D1D67FA01712B1D100460199 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D1D67FA11712B1D100460199 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +119,8 @@
 		D1D67F5F171169D200460199 /* OwbClient */ = {
 			isa = PBXGroup;
 			children = (
-				D1D67F68171169D200460199 /* AppDelegate.h */,
-				D1D67F69171169D200460199 /* AppDelegate.m */,
+				D1D67F951712A92300460199 /* Resources */,
+				D1D67F8E171169E200460199 /* Controller */,
 				D1D67F60171169D200460199 /* Supporting Files */,
 			);
 			path = OwbClient;
@@ -129,6 +136,7 @@
 				D1D67F6B171169D200460199 /* Default.png */,
 				D1D67F6D171169D200460199 /* Default@2x.png */,
 				D1D67F6F171169D200460199 /* Default-568h@2x.png */,
+				D1D67F941711C0E500460199 /* pref.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +158,34 @@
 				D1D67F80171169D200460199 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1D67F8E171169E200460199 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1D67F8F17116A2500460199 /* Home */,
+				D1D67F69171169D200460199 /* AppDelegate.m */,
+				D1D67F68171169D200460199 /* AppDelegate.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D1D67F8F17116A2500460199 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D1D67F9017116A8E00460199 /* HomeViewController.h */,
+				D1D67F9117116A8E00460199 /* HomeViewController.m */,
+				D1D67FA01712B1D100460199 /* LoginViewController.h */,
+				D1D67FA11712B1D100460199 /* LoginViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D1D67F951712A92300460199 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +299,8 @@
 			files = (
 				D1D67F66171169D200460199 /* main.m in Sources */,
 				D1D67F6A171169D200460199 /* AppDelegate.m in Sources */,
+				D1D67F9217116A8E00460199 /* HomeViewController.m in Sources */,
+				D1D67FA21712B1D200460199 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

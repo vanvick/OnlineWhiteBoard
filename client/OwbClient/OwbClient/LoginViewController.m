@@ -8,10 +8,9 @@
 
 #import "LoginViewController.h"
 
-@interface LoginViewController ()
-
+@interface LoginViewController () 
+@property  (nonatomic,strong) NSArray* labels;
 @end
-
 @implementation LoginViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -19,6 +18,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        self.labels = @[@"account",@"password"];
     }
     return self;
 }
@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.view.frame = CGRectMake(20, 20, 160, 20);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -46,22 +46,42 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.labels count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+        label.tag = 1;
+        label.highlightedTextColor = [UIColor whiteColor];
+        label.numberOfLines = 0;
+        label.opaque = NO;
+        label.backgroundColor = [UIColor clearColor];
+        [cell.contentView addSubview:label];
+    }
+    
+    UILabel* label = (UILabel*)[cell viewWithTag:1];
+    NSString* title = [self.labels objectAtIndex:indexPath.row];
+    CGRect cellFrame = [cell frame];
+    cellFrame.origin = CGPointMake(0, 0);
+    
+    label.text = title;
+    CGRect rect = CGRectInset(cellFrame,2,2);
+    label.frame = rect;
+    [label sizeToFit];
     
     return cell;
 }
