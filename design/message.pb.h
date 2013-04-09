@@ -687,20 +687,34 @@ class Document : public ::google::protobuf::Message {
   inline ::std::string* mutable_data();
   inline ::std::string* release_data();
   
+  // optional string user_name = 3;
+  inline bool has_user_name() const;
+  inline void clear_user_name();
+  static const int kUserNameFieldNumber = 3;
+  inline const ::std::string& user_name() const;
+  inline void set_user_name(const ::std::string& value);
+  inline void set_user_name(const char* value);
+  inline void set_user_name(const char* value, size_t size);
+  inline ::std::string* mutable_user_name();
+  inline ::std::string* release_user_name();
+  
   // @@protoc_insertion_point(class_scope:Document)
  private:
   inline void set_has_serial_number();
   inline void clear_has_serial_number();
   inline void set_has_data();
   inline void clear_has_data();
+  inline void set_has_user_name();
+  inline void clear_has_user_name();
   
   ::google::protobuf::UnknownFieldSet _unknown_fields_;
   
   ::std::string* data_;
+  ::std::string* user_name_;
   ::google::protobuf::uint32 serial_number_;
   
   mutable int _cached_size_;
-  ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
+  ::google::protobuf::uint32 _has_bits_[(3 + 31) / 32];
   
   friend void  protobuf_AddDesc_message_2eproto();
   friend void protobuf_AssignDesc_message_2eproto();
@@ -1770,6 +1784,64 @@ inline ::std::string* Document::release_data() {
   } else {
     ::std::string* temp = data_;
     data_ = const_cast< ::std::string*>(&::google::protobuf::internal::kEmptyString);
+    return temp;
+  }
+}
+
+// optional string user_name = 3;
+inline bool Document::has_user_name() const {
+  return (_has_bits_[0] & 0x00000004u) != 0;
+}
+inline void Document::set_has_user_name() {
+  _has_bits_[0] |= 0x00000004u;
+}
+inline void Document::clear_has_user_name() {
+  _has_bits_[0] &= ~0x00000004u;
+}
+inline void Document::clear_user_name() {
+  if (user_name_ != &::google::protobuf::internal::kEmptyString) {
+    user_name_->clear();
+  }
+  clear_has_user_name();
+}
+inline const ::std::string& Document::user_name() const {
+  return *user_name_;
+}
+inline void Document::set_user_name(const ::std::string& value) {
+  set_has_user_name();
+  if (user_name_ == &::google::protobuf::internal::kEmptyString) {
+    user_name_ = new ::std::string;
+  }
+  user_name_->assign(value);
+}
+inline void Document::set_user_name(const char* value) {
+  set_has_user_name();
+  if (user_name_ == &::google::protobuf::internal::kEmptyString) {
+    user_name_ = new ::std::string;
+  }
+  user_name_->assign(value);
+}
+inline void Document::set_user_name(const char* value, size_t size) {
+  set_has_user_name();
+  if (user_name_ == &::google::protobuf::internal::kEmptyString) {
+    user_name_ = new ::std::string;
+  }
+  user_name_->assign(reinterpret_cast<const char*>(value), size);
+}
+inline ::std::string* Document::mutable_user_name() {
+  set_has_user_name();
+  if (user_name_ == &::google::protobuf::internal::kEmptyString) {
+    user_name_ = new ::std::string;
+  }
+  return user_name_;
+}
+inline ::std::string* Document::release_user_name() {
+  clear_has_user_name();
+  if (user_name_ == &::google::protobuf::internal::kEmptyString) {
+    return NULL;
+  } else {
+    ::std::string* temp = user_name_;
+    user_name_ = const_cast< ::std::string*>(&::google::protobuf::internal::kEmptyString);
     return temp;
   }
 }

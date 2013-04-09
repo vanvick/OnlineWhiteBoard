@@ -66,6 +66,8 @@ message Document {
     required uint32 serial_number = 1;
     //文档镜像
     required bytes data = 2;
+    //當前會議主持人
+    optional string user_name = 3;
 }
 
 message DocumentList {

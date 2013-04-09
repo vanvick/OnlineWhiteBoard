@@ -135,9 +135,10 @@ void protobuf_AssignDesc_message_2eproto() {
       ::google::protobuf::MessageFactory::generated_factory(),
       sizeof(Operations));
   Document_descriptor_ = file->message_type(2);
-  static const int Document_offsets_[2] = {
+  static const int Document_offsets_[3] = {
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Document, serial_number_),
     GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Document, data_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Document, user_name_),
   };
   Document_reflection_ =
     new ::google::protobuf::internal::GeneratedMessageReflection(
@@ -315,16 +316,17 @@ void protobuf_AddDesc_message_2eproto() {
     "\020\000\022\013\n\007ELLIPSE\020\001\022\014\n\010RECTANGE\020\002\022\t\n\005POINT\020\003"
     "\022\n\n\006ERASER\020\004\"I\n\nOperations\022\033\n\023operation_"
     "avaliable\030\001 \002(\010\022\036\n\noperations\030\002 \003(\0132\n.Op"
-    "eration\"/\n\010Document\022\025\n\rserial_number\030\001 \002"
-    "(\r\022\014\n\004data\030\002 \002(\014\"3\n\014DocumentList\022#\n\020hist"
-    "ory_document\030\001 \003(\0132\t.Document\"H\n\004User\022\021\n"
-    "\tuser_name\030\001 \002(\t\022\020\n\010password\030\002 \001(\t\022\033\n\010id"
-    "entity\030\003 \001(\0162\t.Identity\"=\n\024HeartBeatSend"
-    "Package\022\021\n\tuser_name\030\001 \002(\t\022\022\n\nmeeting_id"
-    "\030\002 \002(\t\"1\n\022HeartReturnPackage\022\033\n\010identity"
-    "\030\001 \002(\0162\t.Identity\" \n\010UserList\022\024\n\005users\030\001"
-    " \003(\0132\005.User*5\n\010Identity\022\010\n\004HOST\020\001\022\r\n\tCAN"
-    "DIDATE\020\002\022\020\n\014PARTICIPANTS\020\003", 1186);
+    "eration\"B\n\010Document\022\025\n\rserial_number\030\001 \002"
+    "(\r\022\014\n\004data\030\002 \002(\014\022\021\n\tuser_name\030\003 \001(\t\"3\n\014D"
+    "ocumentList\022#\n\020history_document\030\001 \003(\0132\t."
+    "Document\"H\n\004User\022\021\n\tuser_name\030\001 \002(\t\022\020\n\010p"
+    "assword\030\002 \001(\t\022\033\n\010identity\030\003 \001(\0162\t.Identi"
+    "ty\"=\n\024HeartBeatSendPackage\022\021\n\tuser_name\030"
+    "\001 \002(\t\022\022\n\nmeeting_id\030\002 \002(\t\"1\n\022HeartReturn"
+    "Package\022\033\n\010identity\030\001 \002(\0162\t.Identity\" \n\010"
+    "UserList\022\024\n\005users\030\001 \003(\0132\005.User*5\n\010Identi"
+    "ty\022\010\n\004HOST\020\001\022\r\n\tCANDIDATE\020\002\022\020\n\014PARTICIPA"
+    "NTS\020\003", 1205);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "message.proto", &protobuf_RegisterTypes);
   Operation::default_instance_ = new Operation();
@@ -1950,6 +1952,7 @@ void Operations::Swap(Operations* other) {
 #ifndef _MSC_VER
 const int Document::kSerialNumberFieldNumber;
 const int Document::kDataFieldNumber;
+const int Document::kUserNameFieldNumber;
 #endif  // !_MSC_VER
 
 Document::Document()
@@ -1970,6 +1973,7 @@ void Document::SharedCtor() {
   _cached_size_ = 0;
   serial_number_ = 0u;
   data_ = const_cast< ::std::string*>(&::google::protobuf::internal::kEmptyString);
+  user_name_ = const_cast< ::std::string*>(&::google::protobuf::internal::kEmptyString);
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
 }
 
@@ -1980,6 +1984,9 @@ Document::~Document() {
 void Document::SharedDtor() {
   if (data_ != &::google::protobuf::internal::kEmptyString) {
     delete data_;
+  }
+  if (user_name_ != &::google::protobuf::internal::kEmptyString) {
+    delete user_name_;
   }
   if (this != default_instance_) {
   }
@@ -2011,6 +2018,11 @@ void Document::Clear() {
     if (has_data()) {
       if (data_ != &::google::protobuf::internal::kEmptyString) {
         data_->clear();
+      }
+    }
+    if (has_user_name()) {
+      if (user_name_ != &::google::protobuf::internal::kEmptyString) {
+        user_name_->clear();
       }
     }
   }
@@ -2049,6 +2061,23 @@ bool Document::MergePartialFromCodedStream(
         } else {
           goto handle_uninterpreted;
         }
+        if (input->ExpectTag(26)) goto parse_user_name;
+        break;
+      }
+      
+      // optional string user_name = 3;
+      case 3: {
+        if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
+            ::google::protobuf::internal::WireFormatLite::WIRETYPE_LENGTH_DELIMITED) {
+         parse_user_name:
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_user_name()));
+          ::google::protobuf::internal::WireFormat::VerifyUTF8String(
+            this->user_name().data(), this->user_name().length(),
+            ::google::protobuf::internal::WireFormat::PARSE);
+        } else {
+          goto handle_uninterpreted;
+        }
         if (input->ExpectAtEnd()) return true;
         break;
       }
@@ -2082,6 +2111,15 @@ void Document::SerializeWithCachedSizes(
       2, this->data(), output);
   }
   
+  // optional string user_name = 3;
+  if (has_user_name()) {
+    ::google::protobuf::internal::WireFormat::VerifyUTF8String(
+      this->user_name().data(), this->user_name().length(),
+      ::google::protobuf::internal::WireFormat::SERIALIZE);
+    ::google::protobuf::internal::WireFormatLite::WriteString(
+      3, this->user_name(), output);
+  }
+  
   if (!unknown_fields().empty()) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
         unknown_fields(), output);
@@ -2100,6 +2138,16 @@ void Document::SerializeWithCachedSizes(
     target =
       ::google::protobuf::internal::WireFormatLite::WriteBytesToArray(
         2, this->data(), target);
+  }
+  
+  // optional string user_name = 3;
+  if (has_user_name()) {
+    ::google::protobuf::internal::WireFormat::VerifyUTF8String(
+      this->user_name().data(), this->user_name().length(),
+      ::google::protobuf::internal::WireFormat::SERIALIZE);
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        3, this->user_name(), target);
   }
   
   if (!unknown_fields().empty()) {
@@ -2125,6 +2173,13 @@ int Document::ByteSize() const {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::BytesSize(
           this->data());
+    }
+    
+    // optional string user_name = 3;
+    if (has_user_name()) {
+      total_size += 1 +
+        ::google::protobuf::internal::WireFormatLite::StringSize(
+          this->user_name());
     }
     
   }
@@ -2160,6 +2215,9 @@ void Document::MergeFrom(const Document& from) {
     if (from.has_data()) {
       set_data(from.data());
     }
+    if (from.has_user_name()) {
+      set_user_name(from.user_name());
+    }
   }
   mutable_unknown_fields()->MergeFrom(from.unknown_fields());
 }
@@ -2186,6 +2244,7 @@ void Document::Swap(Document* other) {
   if (other != this) {
     std::swap(serial_number_, other->serial_number_);
     std::swap(data_, other->data_);
+    std::swap(user_name_, other->user_name_);
     std::swap(_has_bits_[0], other->_has_bits_[0]);
     _unknown_fields_.Swap(&other->_unknown_fields_);
     std::swap(_cached_size_, other->_cached_size_);
