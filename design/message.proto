@@ -85,6 +85,13 @@ enum Identity {
     PARTICIPANTS = 3;
 }
 
+message MeetingServerInfo {
+    //端口號
+    required int32 port = 1;
+    //服務器ip
+    required string server_ip = 2;
+}
+
 message User {
     //用戶名
     required string user_name = 1;
