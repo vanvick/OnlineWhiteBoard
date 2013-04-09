@@ -99,7 +99,6 @@ string VersionString(int version) {
 
 }  // namespace internal
 
-#if 0
 // ===================================================================
 // emulates google3/base/logging.cc
 
@@ -230,7 +229,6 @@ LogSilencer::~LogSilencer() {
   MutexLock lock(internal::log_silencer_count_mutex_);
   --internal::log_silencer_count_;
 };
-#endif  // 0
 
 // ===================================================================
 // emulates google3/base/callback.cc
