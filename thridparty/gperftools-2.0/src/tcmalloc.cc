@@ -87,7 +87,7 @@
 //   goes from about 1100 ns to about 300 ns.
 
 #include "config.h"
-#include "thirdparty/perftools/tcmalloc.h"
+#include <gperftools/tcmalloc.h>
 
 #include <errno.h>                      // for ENOMEM, EINVAL, errno
 #ifdef HAVE_SYS_CDEFS_H

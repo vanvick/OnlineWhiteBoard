@@ -57,9 +57,6 @@
 #include <exception>
 #endif
 
-// Using glog to replace the one defined by protobuf.
-#include "thirdparty/glog/logging.h"
-
 #if defined(_WIN32) && defined(GetMessage)
 // Allow GetMessage to be used as a valid method name in protobuf classes.
 // windows.h defines GetMessage() as a macro.  Let's re-define it as an inline
@@ -617,27 +614,6 @@ using internal::scoped_array;
 // ===================================================================
 // emulates google3/base/logging.h
 
-#define GOOGLE_LOG          LOG
-#define GOOGLE_LOG_IF       LOG_IF
-
-#define GOOGLE_CHECK        CHECK
-#define GOOGLE_CHECK_EQ     CHECK_EQ
-#define GOOGLE_CHECK_NE     CHECK_NE
-#define GOOGLE_CHECK_LT     CHECK_LT
-#define GOOGLE_CHECK_LE     CHECK_LE
-#define GOOGLE_CHECK_GT     CHECK_GT
-#define GOOGLE_CHECK_GE     CHECK_GE
-
-#define GOOGLE_DLOG         DLOG
-#define GOOGLE_DCHECK       DCHECK
-#define GOOGLE_DCHECK_EQ    DCHECK_EQ
-#define GOOGLE_DCHECK_NE    DCHECK_NE
-#define GOOGLE_DCHECK_LT    DCHECK_LT
-#define GOOGLE_DCHECK_LE    DCHECK_LE
-#define GOOGLE_DCHECK_GT    DCHECK_GT
-#define GOOGLE_DCHECK_GE    DCHECK_GE
-
-#if 0  // Replaced by glog
 enum LogLevel {
   LOGLEVEL_INFO,     // Informational.  This is never actually used by
                      // libprotobuf.
@@ -792,7 +768,6 @@ class LIBPROTOBUF_EXPORT LogSilencer {
   LogSilencer();
   ~LogSilencer();
 };
-#endif  // 0
 
 // ===================================================================
 // emulates google3/base/callback.h

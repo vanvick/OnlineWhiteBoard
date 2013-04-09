@@ -2,7 +2,7 @@
 
 # libtool - Provide generalized library-building support services.
 # Generated automatically by config.status (gflags) 2.0
-# Libtool was configured on host TengDa_10_12_22_200:
+# Libtool was configured on host meta.mtv.corp.google.com:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 #
 #   Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005,
@@ -65,28 +65,28 @@ build=x86_64-unknown-linux-gnu
 build_os=linux-gnu
 
 # A sed program that does not truncate output.
-SED="/usr/bin/sed"
+SED="/bin/sed"
 
 # Sed that helps us avoid accidentally triggering echo(1) options like -n.
 Xsed="$SED -e 1s/^X//"
 
 # A grep program that handles long lines.
-GREP="/usr/bin/grep"
+GREP="/bin/grep"
 
 # An ERE matcher.
-EGREP="/usr/bin/grep -E"
+EGREP="/bin/grep -E"
 
 # A literal string matcher.
-FGREP="/usr/bin/grep -F"
+FGREP="/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
-NM="/data/phongchen/bin/nm -B"
+NM="/usr/bin/nm -B"
 
 # Whether we need soft or hard links.
 LN_S="ln -s"
 
 # What is the maximum length of a command?
-max_cmd_len=98304
+max_cmd_len=3458764513820540925
 
 # Object file suffix (normally "o").
 objext=o
@@ -234,10 +234,10 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/data/gcc4.5.3/lib/gcc/x86_64-unknown-linux-gnu/4.5.3 /data/gcc4.5.3/lib/gcc /data/gcc4.5.3/lib64 /lib64 /usr/lib64"
+sys_lib_search_path_spec="/usr/lib/gcc/x86_64-linux-gnu/4.4.3 /usr/lib /lib /usr/lib/x86_64-linux-gnu"
 
 # Run-time system search path for libraries.
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/samba/lib /data/gcc4.5.3/lib /data/gcc4.5.3/lib64 /usr/X11R6/lib64/Xaw3d /usr/X11R6/lib64 /usr/X11R6/lib/Xaw3d /usr/X11R6/lib /usr/x86_64-suse-linux/lib /usr/local/lib /opt/kde3/lib /opt/gnome/lib /lib64 /lib /usr/lib64 /usr/lib /usr/local/lib64 /opt/kde3/lib64 /opt/gnome/lib64 "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib/nvidia-current /usr/lib32/nvidia-current /usr/lib32/alsa-lib /usr/lib/alsa-lib /usr/local/lib /usr/lib/opencryptoki /usr/lib/opencryptoki/stdll /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu "
 
 # Whether dlopen is supported.
 dlopen_support=unknown
@@ -254,7 +254,7 @@ striplib="strip --strip-unneeded"
 
 
 # The linker used to build libraries.
-LD="/data/phongchen/bin/ld -m elf_x86_64"
+LD="/usr/bin/ld -m elf_x86_64"
 
 # Commands used to build an old-style archive.
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$oldlib"
@@ -8916,7 +8916,7 @@ build_old_libs=`case $build_libtool_libs in yes) echo no;; *) echo yes;; esac`
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
 # The linker used to build libraries.
-LD="/data/phongchen/bin/ld -m elf_x86_64"
+LD="/usr/bin/ld -m elf_x86_64"
 
 # Commands used to build an old-style archive.
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$oldlib"
@@ -9047,17 +9047,17 @@ file_list_spec=""
 hardcode_action=immediate
 
 # The directories searched by this compiler when creating a shared library.
-compiler_lib_search_dirs="/data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3 /data/gcc4.5.3/bin/../lib/gcc /data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/../../../../lib64 /lib/../lib64 /usr/lib/../lib64 /data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/../../.."
+compiler_lib_search_dirs="/usr/lib/gcc/x86_64-linux-gnu/4.4.3 /usr/lib/gcc/x86_64-linux-gnu/4.4.3 /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib /lib/../lib /usr/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../.. /usr/lib/x86_64-linux-gnu"
 
 # Dependencies to place before and after the objects being linked to
 # create a shared library.
-predep_objects="/usr/lib/../lib64/crti.o /data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/crtbeginS.o"
-postdep_objects="/data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/crtendS.o /usr/lib/../lib64/crtn.o"
+predep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtbeginS.o"
+postdep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crtn.o"
 predeps=""
 postdeps="-lstdc++ -lm -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3 -L/data/gcc4.5.3/bin/../lib/gcc -L/data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/gcc4.5.3/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.5.3/../../.."
+compiler_lib_search_path="-L/usr/lib/gcc/x86_64-linux-gnu/4.4.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../.. -L/usr/lib/x86_64-linux-gnu"
 
 # ### END LIBTOOL TAG CONFIG: CXX

@@ -2,19 +2,19 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* the name of <hash_map> */
-#define HASH_MAP_CLASS hash_map
+#define HASH_MAP_CLASS unordered_map
 
 /* the location of <unordered_map> or <hash_map> */
-#define HASH_MAP_H <ext/hash_map>
+#define HASH_MAP_H <tr1/unordered_map>
 
 /* the namespace of hash_map/hash_set */
-#define HASH_NAMESPACE __gnu_cxx
+#define HASH_NAMESPACE std::tr1
 
 /* the name of <hash_set> */
-#define HASH_SET_CLASS hash_set
+#define HASH_SET_CLASS unordered_set
 
 /* the location of <unordered_set> or <hash_set> */
-#define HASH_SET_H <ext/hash_set>
+#define HASH_SET_H <tr1/unordered_set>
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
@@ -80,7 +80,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Enable classes using zlib compression. */
-/* #undef HAVE_ZLIB */
+#define HAVE_ZLIB 1
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */

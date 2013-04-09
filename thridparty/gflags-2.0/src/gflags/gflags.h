@@ -75,8 +75,8 @@
 //   other thread is writing to the variable or calling non-const
 //   methods of this class.
 
-#ifndef GOOGLE_GFLAGS_H_
-#define GOOGLE_GFLAGS_H_
+#ifndef BASE_COMMANDLINEFLAGS_H_
+#define BASE_COMMANDLINEFLAGS_H_
 
 #include <string>
 #include <vector>
@@ -562,4 +562,4 @@ inline clstring* dont_pass0toDEFINE_string(char *stringspot,
 
 #endif  // SWIG
 
-#endif  // GOOGLE_GFLAGS_H_
+#endif  // BASE_COMMANDLINEFLAGS_H_

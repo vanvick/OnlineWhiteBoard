@@ -1,65 +1,65 @@
 K 25
 svn:wc:ra_dav:version-url
-V 62
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb
+V 35
+/svn/!svn/ver/72/trunk/packages/deb
 END
 libgflags0.install
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags0.install
+V 54
+/svn/!svn/ver/29/trunk/packages/deb/libgflags0.install
 END
 control
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/control
+V 43
+/svn/!svn/ver/38/trunk/packages/deb/control
 END
 compat
 K 25
 svn:wc:ra_dav:version-url
-V 69
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/compat
+V 41
+/svn/!svn/ver/7/trunk/packages/deb/compat
 END
 libgflags-dev.dirs
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags-dev.dirs
+V 54
+/svn/!svn/ver/40/trunk/packages/deb/libgflags-dev.dirs
 END
 changelog
 K 25
 svn:wc:ra_dav:version-url
-V 72
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/changelog
-END
-copyright
-K 25
-svn:wc:ra_dav:version-url
-V 72
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/copyright
+V 45
+/svn/!svn/ver/72/trunk/packages/deb/changelog
 END
 docs
 K 25
 svn:wc:ra_dav:version-url
-V 67
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/docs
+V 40
+/svn/!svn/ver/13/trunk/packages/deb/docs
 END
-libgflags0.dirs
+copyright
 K 25
 svn:wc:ra_dav:version-url
-V 78
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags0.dirs
+V 44
+/svn/!svn/ver/7/trunk/packages/deb/copyright
 END
 rules
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/rules
+V 40
+/svn/!svn/ver/7/trunk/packages/deb/rules
+END
+libgflags0.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/29/trunk/packages/deb/libgflags0.dirs
 END
 libgflags-dev.install
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/inf/!svn/ver/979/trunk/new/thirdparty/gflags-2.0/packages/deb/libgflags-dev.install
+V 57
+/svn/!svn/ver/40/trunk/packages/deb/libgflags-dev.install
 END

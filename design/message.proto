@@ -20,9 +20,12 @@ message Operation {
         }
 
         required OperationDataType data_type = 1;
-        required int32 thinkness = 2;
-        optional int32 color = 3;
 
+        //粗细
+        required int32 thinkness = 2;
+        
+        //颜色
+        optional int32 color = 3;
 
         //对于直线
         optional Point start_point = 4;
@@ -44,9 +47,16 @@ message Operation {
         //对于椭圆和长方形
         optional bool fill = 13;
 
+        //深浅
+        optional float alpha = 14;
+
     }
 
     required OperationData data = 2;
+}
+
+message Operations {   
+    repeated Operation operations = 1;
 }
 
 message Documents {
