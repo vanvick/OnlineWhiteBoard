@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/BUILD
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/Makefile
+END

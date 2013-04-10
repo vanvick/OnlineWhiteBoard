@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config
+END
+StaticLibraryTarget.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/StaticLibraryTarget.xcconfig
+END
+FrameworkTarget.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/FrameworkTarget.xcconfig
+END
+TestTarget.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/TestTarget.xcconfig
+END
+ReleaseProject.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/ReleaseProject.xcconfig
+END
+DebugProject.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/DebugProject.xcconfig
+END
+General.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/!svn/ver/979/trunk/new/thirdparty/gtest-1.6.0/xcode/Config/General.xcconfig
+END

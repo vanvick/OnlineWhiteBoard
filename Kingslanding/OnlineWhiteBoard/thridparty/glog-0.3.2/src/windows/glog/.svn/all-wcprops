@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog
+END
+log_severity.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog/log_severity.h
+END
+vlog_is_on.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog/vlog_is_on.h
+END
+raw_logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog/raw_logging.h
+END
+logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog/logging.h
+END
+stl_logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/windows/glog/stl_logging.h
+END

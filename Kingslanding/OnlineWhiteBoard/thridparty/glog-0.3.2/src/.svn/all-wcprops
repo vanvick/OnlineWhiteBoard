@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src
+END
+signalhandler_unittest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/signalhandler_unittest.sh
+END
+config_for_unittests.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/config_for_unittests.h
+END
+stacktrace_generic-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_generic-inl.h
+END
+demangle_unittest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/demangle_unittest.txt
+END
+stacktrace_powerpc-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_powerpc-inl.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/config.h
+END
+mock-log_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/mock-log_test.cc
+END
+logging_striptest10.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_striptest10.cc
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/BUILD
+END
+utilities.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/utilities.cc
+END
+demangle_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/demangle_unittest.cc
+END
+signalhandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/signalhandler.cc
+END
+demangle.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/demangle.cc
+END
+symbolize.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/symbolize.cc
+END
+utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/utilities.h
+END
+symbolize.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/symbolize.h
+END
+stacktrace_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_unittest.cc
+END
+logging_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_unittest.cc
+END
+logging.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging.cc
+END
+logging_striptest2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_striptest2.cc
+END
+logging_striplog_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_striplog_test.sh
+END
+vlog_is_on.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/vlog_is_on.cc
+END
+raw_logging.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/raw_logging.cc
+END
+demangle_unittest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/demangle_unittest.sh
+END
+stl_logging_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stl_logging_unittest.cc
+END
+mock-log.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/mock-log.h
+END
+signalhandler_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/signalhandler_unittest.cc
+END
+utilities_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/utilities_unittest.cc
+END
+stacktrace_x86-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_x86-inl.h
+END
+logging_striptest_main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_striptest_main.cc
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/config.h.in
+END
+symbolize_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/symbolize_unittest.cc
+END
+googletest.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/googletest.h
+END
+demangle.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/demangle.h
+END
+stacktrace_libunwind-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_libunwind-inl.h
+END
+stacktrace_x86_64-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace_x86_64-inl.h
+END
+stacktrace.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/stacktrace.h
+END
+logging_unittest.err
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/logging_unittest.err
+END

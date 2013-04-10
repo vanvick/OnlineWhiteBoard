@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog
+END
+log_severity.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/log_severity.h
+END
+logging.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/logging.h.in
+END
+stl_logging.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/stl_logging.h.in
+END
+vlog_is_on.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/vlog_is_on.h
+END
+raw_logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/raw_logging.h
+END
+vlog_is_on.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/vlog_is_on.h.in
+END
+raw_logging.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/raw_logging.h.in
+END
+logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/logging.h
+END
+stl_logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/src/glog/stl_logging.h
+END
