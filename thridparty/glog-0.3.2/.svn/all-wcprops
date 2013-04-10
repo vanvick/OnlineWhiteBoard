@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/mkinstalldirs
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/Makefile.in
+END
+libglog.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/libglog.pc.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/AUTHORS
+END
+README.windows
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/README.windows
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/ChangeLog
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/depcomp
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/compile
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/README
+END
+google-glog.sln
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/google-glog.sln
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/ltmain.sh
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/missing
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/!svn/ver/979/trunk/new/thirdparty/glog-0.3.2/install-sh
+END

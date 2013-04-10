@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf
+END
+wire_format_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/wire_format_lite.h
+END
+text_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/text_format.h
+END
+repeated_field.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/repeated_field.h
+END
+wire_format_lite_inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/wire_format_lite_inl.h
+END
+vc_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/vc_config.h
+END
+generated_message_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/generated_message_util.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/service.h
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/CHANGES.txt
+END
+message_lite.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/message_lite.h
+END
+descriptor_database.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/descriptor_database.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/config.h
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/BUILD
+END
+reflection_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/reflection_ops.h
+END
+generated_message_reflection.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/generated_message_reflection.h
+END
+unknown_field_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/unknown_field_set.h
+END
+wire_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/wire_format.h
+END
+descriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/descriptor.h
+END
+descriptor.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/descriptor.pb.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/message.h
+END
+linux_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/linux_config.h
+END
+extension_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/extension_set.h
+END
+dynamic_message.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf/dynamic_message.h
+END

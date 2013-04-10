@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler
+END
+mock_code_generator.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/mock_code_generator.h
+END
+parser_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/parser_unittest.cc
+END
+parser.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/parser.cc
+END
+test_plugin.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/test_plugin.cc
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/parser.h
+END
+plugin.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/plugin.cc
+END
+plugin.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/plugin.pb.cc
+END
+zip_writer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/zip_writer.cc
+END
+zip_writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/zip_writer.h
+END
+plugin.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/plugin.pb.h
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/plugin.h
+END
+importer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/importer_unittest.cc
+END
+importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/importer.cc
+END
+importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/importer.h
+END
+command_line_interface_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/command_line_interface_unittest.cc
+END
+command_line_interface.cc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/command_line_interface.cc
+END
+zip_output_unittest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/zip_output_unittest.sh
+END
+command_line_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/command_line_interface.h
+END
+package_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/package_info.h
+END
+plugin.proto
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/plugin.proto
+END
+code_generator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/code_generator.cc
+END
+code_generator.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/code_generator.h
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/main.cc
+END
+subprocess.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/subprocess.cc
+END
+mock_code_generator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/mock_code_generator.cc
+END
+subprocess.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/src/google/protobuf/compiler/subprocess.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/config.h.in
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/depcomp
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/missing
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/ltmain.sh
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/!svn/ver/979/trunk/new/thirdparty/gmock-1.6.0/gtest/build-aux/install-sh
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode/Samples/FrameworkSample
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode/Samples/FrameworkSample/Info.plist
+END
+widget_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode/Samples/FrameworkSample/widget_test.cc
+END
+widget.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode/Samples/FrameworkSample/widget.cc
+END
+widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/!svn/ver/979/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode/Samples/FrameworkSample/widget.h
+END
