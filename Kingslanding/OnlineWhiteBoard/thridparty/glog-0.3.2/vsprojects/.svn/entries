@@ -1,40 +1,0 @@
-10
-
-dir
-1006
-https://svn.baidu.com/inf/trunk/new/thirdparty/glog-0.3.2/vsprojects
-https://svn.baidu.com/inf
-
-
-
-2012-12-26T05:42:39.751452Z
-979
-zhangqianqiong02
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7816a0c9-3c14-4db0-8fd7-1b1d17cefad1
-
-libglog
-dir
-
-logging_unittest
-dir
-
-libglog_static
-dir
-
-logging_unittest_static
-dir
-
