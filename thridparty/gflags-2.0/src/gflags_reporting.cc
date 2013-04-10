@@ -111,41 +111,23 @@ static void AddString(const string& s,
   *chars_in_line += slen;
 }
 
-static inline bool ShouldUseColor() {
-#ifdef __unix__  // I don't want to support Windows now
-  static bool result = isatty(fileno(stdout)) != 0;
-#else
-  static bool result = false;
-#endif
-  return result;
-}
-
 static string PrintStringFlagsWithQuotes(const CommandLineFlagInfo& flag,
                                          const string& text, bool current) {
   const char* c_string = (current ? flag.current_value.c_str() :
                           flag.default_value.c_str());
-  const char* color_begin = ShouldUseColor() ? "\033[32m" : "";
-  const char* color_end = ShouldUseColor() ? "\033[m" : "";
-
   if (strcmp(flag.type.c_str(), "string") == 0) {  // add quotes for strings
-    return StringPrintf("%s: %s\"%s\"%s", text.c_str(), color_begin, c_string,
-                        color_end);
+    return StringPrintf("%s: \"%s\"", text.c_str(), c_string);
   } else {
-    return StringPrintf("%s: %s%s%s", text.c_str(), color_begin, c_string,
-                        color_end);
+    return StringPrintf("%s: %s", text.c_str(), c_string);
   }
 }
 
 // Create a descriptive string for a flag.
 // Goes to some trouble to make pretty line breaks.
 string DescribeOneFlag(const CommandLineFlagInfo& flag) {
-  const char* color_begin = ShouldUseColor() ? "\033[32m" : "";
-  const char* color_end = ShouldUseColor() ? "\033[m" : "";
   string main_part;
-  SStringPrintf(&main_part, "    %s--%s%s (%s)",
-                color_begin,
+  SStringPrintf(&main_part, "    -%s (%s)",
                 flag.name.c_str(),
-                color_end,
                 flag.description.c_str());
   const char* c_string = main_part.c_str();
   int chars_left = static_cast<int>(main_part.length());
@@ -191,8 +173,7 @@ string DescribeOneFlag(const CommandLineFlagInfo& flag) {
   }
 
   // Append data type
-  AddString(string("type: ") + color_begin + flag.type + color_end,
-            &final_string, &chars_in_line);
+  AddString(string("type: ") + flag.type, &final_string, &chars_in_line);
   // The listed default value will be the actual default from the flag
   // definition in the originating source file, unless the value has
   // subsequently been modified using SetCommandLineOptionWithMode() with mode

@@ -1,43 +1,0 @@
-10
-
-dir
-1006
-https://svn.baidu.com/inf/trunk/new/thirdparty/protobuf-2.4.1/gtest/xcode
-https://svn.baidu.com/inf
-
-
-
-2012-12-26T05:42:39.751452Z
-979
-zhangqianqiong02
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7816a0c9-3c14-4db0-8fd7-1b1d17cefad1
-
-gtest.xcodeproj
-dir
-
-Samples
-dir
-
-Config
-dir
-
-Scripts
-dir
-
-Resources
-dir
-
