@@ -3,7 +3,7 @@
     ** Author: fl570
     ** Mail: cqfl570@gmail.com
     ** Created Time: Wed Apr 10 16:46:51 2013
-    **Copyright [2013] <Copyright tsgsz>  [legal/copyright]
+    **Copyright [2013] <Copyright fl570>  [legal/copyright]
  ************************************************************************/
 
 
@@ -13,6 +13,9 @@
 #define QUEUESIZE 128
 #include "../message.pb.h"
 #include "../common.h"
+#include <glog/logging.h>
+#include <gtest/gtest_prod.h>
+
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
@@ -28,15 +31,20 @@ public:
       int IsEmpty() const;
       int IsFull() const;
       int GetCount() const;
-      bool AddOperation(const Operation& oper);
+      bool AddOperation(Operation* oper);
       bool SetState();
-      Operation* GetOperationAfter(int operation_id);
-
+      Operations GetOperationAfter(int operation_id);
+      Operations GetOperationFromStoreAfter(int operation_id);
+      
 private:
-      bool AddOperationToSet(int set, const Operation& oper);
-      Operation* GetOperationFromSet(int set, int operation_id);
-      FORBIDDEN_EVIL_CONSTRUCTOR(MemoryCache);
-  
+      bool AddOperationToSet(int set, Operation* oper);
+      Operations GetOperationFromSet(int set, int operation_id);
+      //FORBIDDEN_EVIL_CONSTRUCTOR(MemoryCache);
+      FRIEND_TEST(MemoryCacheTest, AddOperation);
+      FRIEND_TEST(MemoryCacheTest, SetState);
+      FRIEND_TEST(MemoryCacheTest, GetOperationAfter);
+      FRIEND_TEST(MemoryCacheTest, GetOperationFromStoreAfter);
+      FRIEND_TEST(MemoryCacheTest, Initial);
       int capacity_;
       bool state_;
       int front_[2];
