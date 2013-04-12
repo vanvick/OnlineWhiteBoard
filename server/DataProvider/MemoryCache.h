@@ -13,8 +13,6 @@
 #define QUEUESIZE 128
 #include "../message.pb.h"
 #include "../common.h"
-#include <glog/logging.h>
-#include <gtest/gtest_prod.h>
 
 
 namespace Kingslanding {
@@ -31,20 +29,23 @@ public:
       int IsEmpty() const;
       int IsFull() const;
       int GetCount() const;
-      bool AddOperation(Operation* oper);
+      bool AddOperation(const Operation* oper);
       bool SetState();
       Operations GetOperationAfter(int operation_id);
       Operations GetOperationFromStoreAfter(int operation_id);
       
 private:
-      bool AddOperationToSet(int set, Operation* oper);
+      bool AddOperationToSet(int set, const Operation* oper);
       Operations GetOperationFromSet(int set, int operation_id);
-      //FORBIDDEN_EVIL_CONSTRUCTOR(MemoryCache);
+      FORBIDDEN_EVIL_CONSTRUCTORS(MemoryCache);
+
+#ifdef DEBUG
       FRIEND_TEST(MemoryCacheTest, AddOperation);
       FRIEND_TEST(MemoryCacheTest, SetState);
       FRIEND_TEST(MemoryCacheTest, GetOperationAfter);
       FRIEND_TEST(MemoryCacheTest, GetOperationFromStoreAfter);
       FRIEND_TEST(MemoryCacheTest, Initial);
+#endif
       int capacity_;
       bool state_;
       int front_[2];
@@ -53,7 +54,7 @@ private:
       int front_id_[2];
       int rear_id_[2];
       int index_;
-      Operation** operation_[2];
+      const Operation** operation_[2];
 
       
 };
