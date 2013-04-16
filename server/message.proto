@@ -94,7 +94,7 @@ message MeetingServerInfo {
 
 enum JoinState {
     //成功
-    SUCCESS = 1；
+    SUCCESS = 1;
     //加入失败
     FAIL = 2;
     //没有创建该会议
@@ -105,9 +105,9 @@ enum JoinState {
 
 message JoinMeetingReturn {
     //操作状态
-    required JoinState = 1;
+    required JoinState state = 1;
     //服务器状态
-    optional MeetingServerInfo = 2;
+    optional MeetingServerInfo meeting_server_info = 2;
 }
 
 message User {
