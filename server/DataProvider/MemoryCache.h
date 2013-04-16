@@ -33,7 +33,7 @@ public:
       bool SetState();
       Operations GetOperationAfter(int operation_id);
       Operations GetOperationFromStoreAfter(int operation_id);
-      
+
 private:
       bool AddOperationToSet(int set, const Operation* oper);
       Operations GetOperationFromSet(int set, int operation_id);
@@ -55,8 +55,6 @@ private:
       int rear_id_[2];
       int index_;
       const Operation** operation_[2];
-
-      
 };
 }  // DataProvider
 }  // Server

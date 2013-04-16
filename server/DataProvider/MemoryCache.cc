@@ -1,5 +1,5 @@
 /*************************************************************************
-     ** File Name :  ServerDelegate.h
+     ** File Name :  MemoryCache.cc
     ** Author :  fl570
     ** Mail :  cqfl570@gmail.com
     ** Created Time :  Wed Apr 10 16 : 46 : 51 2013
@@ -8,7 +8,10 @@
 
 #include "./MemoryCache.h"
 
-using namespace Kingslanding::OnlineWhiteBoard::Server::DataProvider;
+namespace Kingslanding {
+namespace OnlineWhiteBoard {
+namespace Server {
+namespace DataProvider {
 
 MemoryCache::MemoryCache(int capacity) {
   state_ = false;
@@ -35,7 +38,6 @@ MemoryCache::MemoryCache(int capacity) {
       LOG(ERROR) << "ERROR: cann't create operation_ set !";
     }
   }
-
 }
 
 MemoryCache::~MemoryCache() {
@@ -108,7 +110,6 @@ bool MemoryCache::AddOperation(const Operation* oper) {
 }
 
 bool MemoryCache::AddOperationToSet(int set, const Operation* oper) {
-
     if (IsEmpty()) {
       rear_[set] = -1;
       front_id_[set] = oper->serial_number();
@@ -137,11 +138,13 @@ bool MemoryCache::AddOperationToSet(int set, const Operation* oper) {
 }
 
 Operations MemoryCache::GetOperationAfter(int operation_id) {
-  return state_ ? GetOperationFromSet(1, operation_id) : GetOperationFromSet(0, operation_id);
+  return state_ ? GetOperationFromSet(1, operation_id) :
+                              GetOperationFromSet(0, operation_id);
 }
 
 Operations MemoryCache::GetOperationFromStoreAfter(int operation_id) {
-  return state_ ? GetOperationFromSet(0, operation_id) : GetOperationFromSet(1, operation_id);
+  return state_ ? GetOperationFromSet(0, operation_id) :
+                              GetOperationFromSet(1, operation_id);
 }
 
 
@@ -161,6 +164,8 @@ Operations MemoryCache::GetOperationFromSet(int set, int operation_id) {
   }
   return opers;
 }
-
-
+}  // DataProvider
+}  // Server
+}  // OnlineWhiteBoard
+}  // Kingslanding
 

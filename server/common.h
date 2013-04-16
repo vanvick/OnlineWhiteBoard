@@ -17,4 +17,7 @@ void operator=(const TypeName&)
 #include <gtest/gtest_prod.h>
 #endif
 
+#include "RcfDefine.h"
+
+DEFINE_string(server_ip_address, "127.0.0.1", "the ip address of server"); 
 #endif
