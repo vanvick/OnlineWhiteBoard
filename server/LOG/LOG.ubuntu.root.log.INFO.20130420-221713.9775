@@ -1,0 +1,4 @@
+Log file created at: 2013/04/20 22:17:13
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0420 22:17:13.442348  9775 DBManagerTest.cc:35] source ~/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql

@@ -1,0 +1,4 @@
+Log file created at: 2013/04/21 10:39:08
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0421 10:39:08.795310  8629 DBManagerTest.cc:51] Commands out of sync; you can't run this command now

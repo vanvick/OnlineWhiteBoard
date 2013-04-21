@@ -983,32 +983,32 @@ class JoinMeetingReturn : public ::google::protobuf::Message {
   
   // accessors -------------------------------------------------------
   
-  // required .JoinState state = 1;
-  inline bool has_state() const;
-  inline void clear_state();
-  static const int kStateFieldNumber = 1;
-  inline JoinState state() const;
-  inline void set_state(JoinState value);
+  // required .JoinState join_state = 1;
+  inline bool has_join_state() const;
+  inline void clear_join_state();
+  static const int kJoinStateFieldNumber = 1;
+  inline JoinState join_state() const;
+  inline void set_join_state(JoinState value);
   
-  // optional .MeetingServerInfo meeting_server_info = 2;
-  inline bool has_meeting_server_info() const;
-  inline void clear_meeting_server_info();
-  static const int kMeetingServerInfoFieldNumber = 2;
-  inline const ::MeetingServerInfo& meeting_server_info() const;
-  inline ::MeetingServerInfo* mutable_meeting_server_info();
-  inline ::MeetingServerInfo* release_meeting_server_info();
+  // optional .MeetingServerInfo server_info = 2;
+  inline bool has_server_info() const;
+  inline void clear_server_info();
+  static const int kServerInfoFieldNumber = 2;
+  inline const ::MeetingServerInfo& server_info() const;
+  inline ::MeetingServerInfo* mutable_server_info();
+  inline ::MeetingServerInfo* release_server_info();
   
   // @@protoc_insertion_point(class_scope:JoinMeetingReturn)
  private:
-  inline void set_has_state();
-  inline void clear_has_state();
-  inline void set_has_meeting_server_info();
-  inline void clear_has_meeting_server_info();
+  inline void set_has_join_state();
+  inline void clear_has_join_state();
+  inline void set_has_server_info();
+  inline void clear_has_server_info();
   
   ::google::protobuf::UnknownFieldSet _unknown_fields_;
   
-  ::MeetingServerInfo* meeting_server_info_;
-  int state_;
+  ::MeetingServerInfo* server_info_;
+  int join_state_;
   
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
@@ -2175,55 +2175,55 @@ inline ::std::string* MeetingServerInfo::release_server_ip() {
 
 // JoinMeetingReturn
 
-// required .JoinState state = 1;
-inline bool JoinMeetingReturn::has_state() const {
+// required .JoinState join_state = 1;
+inline bool JoinMeetingReturn::has_join_state() const {
   return (_has_bits_[0] & 0x00000001u) != 0;
 }
-inline void JoinMeetingReturn::set_has_state() {
+inline void JoinMeetingReturn::set_has_join_state() {
   _has_bits_[0] |= 0x00000001u;
 }
-inline void JoinMeetingReturn::clear_has_state() {
+inline void JoinMeetingReturn::clear_has_join_state() {
   _has_bits_[0] &= ~0x00000001u;
 }
-inline void JoinMeetingReturn::clear_state() {
-  state_ = 1;
-  clear_has_state();
+inline void JoinMeetingReturn::clear_join_state() {
+  join_state_ = 1;
+  clear_has_join_state();
 }
-inline JoinState JoinMeetingReturn::state() const {
-  return static_cast< JoinState >(state_);
+inline JoinState JoinMeetingReturn::join_state() const {
+  return static_cast< JoinState >(join_state_);
 }
-inline void JoinMeetingReturn::set_state(JoinState value) {
+inline void JoinMeetingReturn::set_join_state(JoinState value) {
   GOOGLE_DCHECK(JoinState_IsValid(value));
-  set_has_state();
-  state_ = value;
+  set_has_join_state();
+  join_state_ = value;
 }
 
-// optional .MeetingServerInfo meeting_server_info = 2;
-inline bool JoinMeetingReturn::has_meeting_server_info() const {
+// optional .MeetingServerInfo server_info = 2;
+inline bool JoinMeetingReturn::has_server_info() const {
   return (_has_bits_[0] & 0x00000002u) != 0;
 }
-inline void JoinMeetingReturn::set_has_meeting_server_info() {
+inline void JoinMeetingReturn::set_has_server_info() {
   _has_bits_[0] |= 0x00000002u;
 }
-inline void JoinMeetingReturn::clear_has_meeting_server_info() {
+inline void JoinMeetingReturn::clear_has_server_info() {
   _has_bits_[0] &= ~0x00000002u;
 }
-inline void JoinMeetingReturn::clear_meeting_server_info() {
-  if (meeting_server_info_ != NULL) meeting_server_info_->::MeetingServerInfo::Clear();
-  clear_has_meeting_server_info();
+inline void JoinMeetingReturn::clear_server_info() {
+  if (server_info_ != NULL) server_info_->::MeetingServerInfo::Clear();
+  clear_has_server_info();
 }
-inline const ::MeetingServerInfo& JoinMeetingReturn::meeting_server_info() const {
-  return meeting_server_info_ != NULL ? *meeting_server_info_ : *default_instance_->meeting_server_info_;
+inline const ::MeetingServerInfo& JoinMeetingReturn::server_info() const {
+  return server_info_ != NULL ? *server_info_ : *default_instance_->server_info_;
 }
-inline ::MeetingServerInfo* JoinMeetingReturn::mutable_meeting_server_info() {
-  set_has_meeting_server_info();
-  if (meeting_server_info_ == NULL) meeting_server_info_ = new ::MeetingServerInfo;
-  return meeting_server_info_;
+inline ::MeetingServerInfo* JoinMeetingReturn::mutable_server_info() {
+  set_has_server_info();
+  if (server_info_ == NULL) server_info_ = new ::MeetingServerInfo;
+  return server_info_;
 }
-inline ::MeetingServerInfo* JoinMeetingReturn::release_meeting_server_info() {
-  clear_has_meeting_server_info();
-  ::MeetingServerInfo* temp = meeting_server_info_;
-  meeting_server_info_ = NULL;
+inline ::MeetingServerInfo* JoinMeetingReturn::release_server_info() {
+  clear_has_server_info();
+  ::MeetingServerInfo* temp = server_info_;
+  server_info_ = NULL;
   return temp;
 }
 

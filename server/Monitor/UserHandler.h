@@ -11,15 +11,14 @@
 
 #define DBMANAGER Kingslanding::OnlineWhiteBoard::Server::DBManager
 
-#include "../DBManager/DBManager.h"
-#include "../message.pb.h"
+#include "./Handler.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
 namespace Server {
 namespace Monitor {
 
-class UserHandler {
+class UserHandler : public MsgHandler {
 public:
     UserHandler();
     virtual ~UserHandler();
@@ -28,7 +27,6 @@ public:
     UserList GetCurrentUserList(const std::string&);
 private:
     UserList UserListFactory(DBMANAGER::UserInfo*, int&);
-    DBMANAGER::DBManager* db_manager_;
 };
 }  // Monitor
 }  // Server

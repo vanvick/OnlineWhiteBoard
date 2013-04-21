@@ -9,27 +9,21 @@
 #ifndef KINGSLANDING_ONLINEWHITEBOARD_SERVER_DBMANAGER_DBMANAGER_H_
 #define KINGSLANDING_ONLINEWHITEBOARD_SERVER_DBMANAGER_DBMANAGER_H_
 
-#include <mysql/mysql.h>
 #include <string>
-
+#include <mysql/mysql.h>
 #include "../common.h"
-
-DEFINE_string(mysql_server_ip, "127.0.0.1", "the ip address of mysql server"); 
-DEFINE_string(mysql_user, "root", "the user of mysql server"); 
-DEFINE_string(mysql_password, "570", "the password of mysql server"); 
-DEFINE_string(mysql_database, "OWB", "the database of mysql server"); 
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
 namespace Server {
 namespace DBManager {
 
-typedef struct UserInfo {
+struct UserInfo {
   char user_name[50];
   int state;
 };
 
-typedef struct DocumentInfo {
+struct DocumentInfo {
   char path[100];
   unsigned int serial_number;
 };
@@ -59,10 +53,15 @@ public:
     DocumentInfo* GetHistoryDocuments(const std::string&, int&);
     DocumentInfo GetDocument(const std::string&, int);
     UserInfo* GetUserList(const std::string&, int&);
-    ~DBManager();
-
 private:
     DBManager();
+    ~DBManager();
+    MYSQL* InitConnection();
+    bool DestoryConnection(MYSQL *conn);
+
+#ifdef DEBUG
+    friend class DBManagerTest;
+#endif
 
     static DBManager* db_manager_instance_;
 
@@ -75,9 +74,6 @@ private:
         }
     };
     static Garbo garbo_;
-    MYSQL *conn_;
-    MYSQL_RES *res_;
-    MYSQL_ROW row_;
 };
 }  // DBManager
 }  // Server

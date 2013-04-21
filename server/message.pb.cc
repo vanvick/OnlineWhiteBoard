@@ -191,8 +191,8 @@ void protobuf_AssignDesc_message_2eproto() {
       sizeof(MeetingServerInfo));
   JoinMeetingReturn_descriptor_ = file->message_type(5);
   static const int JoinMeetingReturn_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinMeetingReturn, state_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinMeetingReturn, meeting_server_info_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinMeetingReturn, join_state_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinMeetingReturn, server_info_),
   };
   JoinMeetingReturn_reflection_ =
     new ::google::protobuf::internal::GeneratedMessageReflection(
@@ -368,18 +368,18 @@ void protobuf_AddDesc_message_2eproto() {
     "(\r\022\014\n\004data\030\002 \002(\014\022\021\n\tuser_name\030\003 \001(\t\"3\n\014D"
     "ocumentList\022#\n\020history_document\030\001 \003(\0132\t."
     "Document\"4\n\021MeetingServerInfo\022\014\n\004port\030\001 "
-    "\002(\005\022\021\n\tserver_ip\030\002 \002(\t\"_\n\021JoinMeetingRet"
-    "urn\022\031\n\005state\030\001 \002(\0162\n.JoinState\022/\n\023meetin"
-    "g_server_info\030\002 \001(\0132\022.MeetingServerInfo\""
-    "H\n\004User\022\021\n\tuser_name\030\001 \002(\t\022\020\n\010password\030\002"
-    " \001(\t\022\033\n\010identity\030\003 \001(\0162\t.Identity\"=\n\024Hea"
-    "rtBeatSendPackage\022\021\n\tuser_name\030\001 \002(\t\022\022\n\n"
-    "meeting_id\030\002 \002(\t\"1\n\022HeartReturnPackage\022\033"
-    "\n\010identity\030\001 \002(\0162\t.Identity\" \n\010UserList\022"
-    "\024\n\005users\030\001 \003(\0132\005.User*5\n\010Identity\022\010\n\004HOS"
-    "T\020\001\022\r\n\tCANDIDATE\020\002\022\020\n\014PARTICIPANTS\020\003*>\n\t"
-    "JoinState\022\013\n\007SUCCESS\020\001\022\010\n\004FAIL\020\002\022\020\n\014NOTA"
-    "VAILABLE\020\003\022\010\n\004DEAD\020\004", 1420);
+    "\002(\005\022\021\n\tserver_ip\030\002 \002(\t\"\\\n\021JoinMeetingRet"
+    "urn\022\036\n\njoin_state\030\001 \002(\0162\n.JoinState\022\'\n\013s"
+    "erver_info\030\002 \001(\0132\022.MeetingServerInfo\"H\n\004"
+    "User\022\021\n\tuser_name\030\001 \002(\t\022\020\n\010password\030\002 \001("
+    "\t\022\033\n\010identity\030\003 \001(\0162\t.Identity\"=\n\024HeartB"
+    "eatSendPackage\022\021\n\tuser_name\030\001 \002(\t\022\022\n\nmee"
+    "ting_id\030\002 \002(\t\"1\n\022HeartReturnPackage\022\033\n\010i"
+    "dentity\030\001 \002(\0162\t.Identity\" \n\010UserList\022\024\n\005"
+    "users\030\001 \003(\0132\005.User*5\n\010Identity\022\010\n\004HOST\020\001"
+    "\022\r\n\tCANDIDATE\020\002\022\020\n\014PARTICIPANTS\020\003*>\n\tJoi"
+    "nState\022\013\n\007SUCCESS\020\001\022\010\n\004FAIL\020\002\022\020\n\014NOTAVAI"
+    "LABLE\020\003\022\010\n\004DEAD\020\004", 1417);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "message.proto", &protobuf_RegisterTypes);
   Operation::default_instance_ = new Operation();
@@ -2806,8 +2806,8 @@ void MeetingServerInfo::Swap(MeetingServerInfo* other) {
 // ===================================================================
 
 #ifndef _MSC_VER
-const int JoinMeetingReturn::kStateFieldNumber;
-const int JoinMeetingReturn::kMeetingServerInfoFieldNumber;
+const int JoinMeetingReturn::kJoinStateFieldNumber;
+const int JoinMeetingReturn::kServerInfoFieldNumber;
 #endif  // !_MSC_VER
 
 JoinMeetingReturn::JoinMeetingReturn()
@@ -2816,7 +2816,7 @@ JoinMeetingReturn::JoinMeetingReturn()
 }
 
 void JoinMeetingReturn::InitAsDefaultInstance() {
-  meeting_server_info_ = const_cast< ::MeetingServerInfo*>(&::MeetingServerInfo::default_instance());
+  server_info_ = const_cast< ::MeetingServerInfo*>(&::MeetingServerInfo::default_instance());
 }
 
 JoinMeetingReturn::JoinMeetingReturn(const JoinMeetingReturn& from)
@@ -2827,8 +2827,8 @@ JoinMeetingReturn::JoinMeetingReturn(const JoinMeetingReturn& from)
 
 void JoinMeetingReturn::SharedCtor() {
   _cached_size_ = 0;
-  state_ = 1;
-  meeting_server_info_ = NULL;
+  join_state_ = 1;
+  server_info_ = NULL;
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
 }
 
@@ -2838,7 +2838,7 @@ JoinMeetingReturn::~JoinMeetingReturn() {
 
 void JoinMeetingReturn::SharedDtor() {
   if (this != default_instance_) {
-    delete meeting_server_info_;
+    delete server_info_;
   }
 }
 
@@ -2864,9 +2864,9 @@ JoinMeetingReturn* JoinMeetingReturn::New() const {
 
 void JoinMeetingReturn::Clear() {
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
-    state_ = 1;
-    if (has_meeting_server_info()) {
-      if (meeting_server_info_ != NULL) meeting_server_info_->::MeetingServerInfo::Clear();
+    join_state_ = 1;
+    if (has_server_info()) {
+      if (server_info_ != NULL) server_info_->::MeetingServerInfo::Clear();
     }
   }
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
@@ -2879,7 +2879,7 @@ bool JoinMeetingReturn::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   while ((tag = input->ReadTag()) != 0) {
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // required .JoinState state = 1;
+      // required .JoinState join_state = 1;
       case 1: {
         if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
             ::google::protobuf::internal::WireFormatLite::WIRETYPE_VARINT) {
@@ -2888,24 +2888,24 @@ bool JoinMeetingReturn::MergePartialFromCodedStream(
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
                  input, &value)));
           if (JoinState_IsValid(value)) {
-            set_state(static_cast< JoinState >(value));
+            set_join_state(static_cast< JoinState >(value));
           } else {
             mutable_unknown_fields()->AddVarint(1, value);
           }
         } else {
           goto handle_uninterpreted;
         }
-        if (input->ExpectTag(18)) goto parse_meeting_server_info;
+        if (input->ExpectTag(18)) goto parse_server_info;
         break;
       }
       
-      // optional .MeetingServerInfo meeting_server_info = 2;
+      // optional .MeetingServerInfo server_info = 2;
       case 2: {
         if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
             ::google::protobuf::internal::WireFormatLite::WIRETYPE_LENGTH_DELIMITED) {
-         parse_meeting_server_info:
+         parse_server_info:
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
-               input, mutable_meeting_server_info()));
+               input, mutable_server_info()));
         } else {
           goto handle_uninterpreted;
         }
@@ -2931,16 +2931,16 @@ bool JoinMeetingReturn::MergePartialFromCodedStream(
 
 void JoinMeetingReturn::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // required .JoinState state = 1;
-  if (has_state()) {
+  // required .JoinState join_state = 1;
+  if (has_join_state()) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
-      1, this->state(), output);
+      1, this->join_state(), output);
   }
   
-  // optional .MeetingServerInfo meeting_server_info = 2;
-  if (has_meeting_server_info()) {
+  // optional .MeetingServerInfo server_info = 2;
+  if (has_server_info()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      2, this->meeting_server_info(), output);
+      2, this->server_info(), output);
   }
   
   if (!unknown_fields().empty()) {
@@ -2951,17 +2951,17 @@ void JoinMeetingReturn::SerializeWithCachedSizes(
 
 ::google::protobuf::uint8* JoinMeetingReturn::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // required .JoinState state = 1;
-  if (has_state()) {
+  // required .JoinState join_state = 1;
+  if (has_join_state()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
-      1, this->state(), target);
+      1, this->join_state(), target);
   }
   
-  // optional .MeetingServerInfo meeting_server_info = 2;
-  if (has_meeting_server_info()) {
+  // optional .MeetingServerInfo server_info = 2;
+  if (has_server_info()) {
     target = ::google::protobuf::internal::WireFormatLite::
       WriteMessageNoVirtualToArray(
-        2, this->meeting_server_info(), target);
+        2, this->server_info(), target);
   }
   
   if (!unknown_fields().empty()) {
@@ -2975,17 +2975,17 @@ int JoinMeetingReturn::ByteSize() const {
   int total_size = 0;
   
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
-    // required .JoinState state = 1;
-    if (has_state()) {
+    // required .JoinState join_state = 1;
+    if (has_join_state()) {
       total_size += 1 +
-        ::google::protobuf::internal::WireFormatLite::EnumSize(this->state());
+        ::google::protobuf::internal::WireFormatLite::EnumSize(this->join_state());
     }
     
-    // optional .MeetingServerInfo meeting_server_info = 2;
-    if (has_meeting_server_info()) {
+    // optional .MeetingServerInfo server_info = 2;
+    if (has_server_info()) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-          this->meeting_server_info());
+          this->server_info());
     }
     
   }
@@ -3015,11 +3015,11 @@ void JoinMeetingReturn::MergeFrom(const ::google::protobuf::Message& from) {
 void JoinMeetingReturn::MergeFrom(const JoinMeetingReturn& from) {
   GOOGLE_CHECK_NE(&from, this);
   if (from._has_bits_[0 / 32] & (0xffu << (0 % 32))) {
-    if (from.has_state()) {
-      set_state(from.state());
+    if (from.has_join_state()) {
+      set_join_state(from.join_state());
     }
-    if (from.has_meeting_server_info()) {
-      mutable_meeting_server_info()->::MeetingServerInfo::MergeFrom(from.meeting_server_info());
+    if (from.has_server_info()) {
+      mutable_server_info()->::MeetingServerInfo::MergeFrom(from.server_info());
     }
   }
   mutable_unknown_fields()->MergeFrom(from.unknown_fields());
@@ -3040,16 +3040,16 @@ void JoinMeetingReturn::CopyFrom(const JoinMeetingReturn& from) {
 bool JoinMeetingReturn::IsInitialized() const {
   if ((_has_bits_[0] & 0x00000001) != 0x00000001) return false;
   
-  if (has_meeting_server_info()) {
-    if (!this->meeting_server_info().IsInitialized()) return false;
+  if (has_server_info()) {
+    if (!this->server_info().IsInitialized()) return false;
   }
   return true;
 }
 
 void JoinMeetingReturn::Swap(JoinMeetingReturn* other) {
   if (other != this) {
-    std::swap(state_, other->state_);
-    std::swap(meeting_server_info_, other->meeting_server_info_);
+    std::swap(join_state_, other->join_state_);
+    std::swap(server_info_, other->server_info_);
     std::swap(_has_bits_[0], other->_has_bits_[0]);
     _unknown_fields_.Swap(&other->_unknown_fields_);
     std::swap(_cached_size_, other->_cached_size_);

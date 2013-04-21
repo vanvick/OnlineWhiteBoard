@@ -1,0 +1,29 @@
+Log file created at: 2013/04/20 22:36:37
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0420 22:36:37.999176 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.007694 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.013761 13149 DBManagerTest.cc:43] Commands out of sync; you can't run this command now
+E0420 22:36:38.013851 13149 DBManagerTest.cc:47] Commands out of sync; you can't run this command now
+E0420 22:36:38.013927 13149 DBManagerTest.cc:51] Commands out of sync; you can't run this command now
+E0420 22:36:38.017896 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.020486 13149 DBManagerTest.cc:43] Commands out of sync; you can't run this command now
+E0420 22:36:38.020606 13149 DBManagerTest.cc:47] Commands out of sync; you can't run this command now
+E0420 22:36:38.020710 13149 DBManagerTest.cc:51] Commands out of sync; you can't run this command now
+E0420 22:36:38.024574 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.025913 13149 DBManagerTest.cc:43] Commands out of sync; you can't run this command now
+E0420 22:36:38.026002 13149 DBManagerTest.cc:47] Commands out of sync; you can't run this command now
+E0420 22:36:38.026068 13149 DBManagerTest.cc:51] Commands out of sync; you can't run this command now
+E0420 22:36:38.029875 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.035539 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.036883 13149 DBManagerTest.cc:43] Commands out of sync; you can't run this command now
+E0420 22:36:38.036988 13149 DBManagerTest.cc:47] Commands out of sync; you can't run this command now
+E0420 22:36:38.037052 13149 DBManagerTest.cc:51] Commands out of sync; you can't run this command now
+E0420 22:36:38.040813 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.046210 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.047636 13149 DBManagerTest.cc:43] Commands out of sync; you can't run this command now
+E0420 22:36:38.047742 13149 DBManagerTest.cc:47] Commands out of sync; you can't run this command now
+E0420 22:36:38.047806 13149 DBManagerTest.cc:51] Commands out of sync; you can't run this command now
+E0420 22:36:38.051528 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.058337 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1
+E0420 22:36:38.064384 13149 DBManagerTest.cc:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'source /root/Kingslanding/OnlineWhiteBoard/server/DBManager/test.sql' at line 1

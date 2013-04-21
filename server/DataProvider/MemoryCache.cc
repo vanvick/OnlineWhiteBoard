@@ -96,6 +96,7 @@ bool MemoryCache::SetState() {
       rear_id_[1] = 0;
     }
     state_ = state_ ? false : true;
+    return true;
 }
 
 

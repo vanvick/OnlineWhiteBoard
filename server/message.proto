@@ -105,9 +105,9 @@ enum JoinState {
 
 message JoinMeetingReturn {
     //操作状态
-    required JoinState state = 1;
+    required JoinState join_state = 1;
     //服务器状态
-    optional MeetingServerInfo meeting_server_info = 2;
+    optional MeetingServerInfo server_info = 2;
 }
 
 message User {

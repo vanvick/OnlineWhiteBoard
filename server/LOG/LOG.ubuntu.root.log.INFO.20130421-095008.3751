@@ -1,0 +1,6 @@
+Log file created at: 2013/04/21 09:50:08
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0421 09:50:08.160975  3751 DBManagerTest.cc:36] Can't get stat of '/root/Kingslanding/OnlineWhiteBoard/server/DBManager/Meeting.txt' (Errcode: 13)
+E0421 09:50:08.161624  3751 DBManagerTest.cc:40] Can't get stat of '/root/Kingslanding/OnlineWhiteBoard/server/DBManager/MeetingUser.txt' (Errcode: 13)
+E0421 09:50:08.161797  3751 DBManagerTest.cc:44] Can't get stat of '/root/Kingslanding/OnlineWhiteBoard/server/DBManager/MeetingDocument.txt' (Errcode: 13)

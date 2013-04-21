@@ -1,0 +1,4 @@
+Log file created at: 2013/04/21 12:59:30
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0421 12:59:30.750037  3108 DBManager.cc:348] the meeting is dead

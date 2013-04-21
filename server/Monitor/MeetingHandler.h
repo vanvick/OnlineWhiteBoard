@@ -15,19 +15,19 @@
 #include <RCF/RCF.hpp>
 #include <hash_map>
 
-#include "../DBManager/DBManager.h"
-#include "../message.pb.h"
+#include "./Handler.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
 namespace Server {
 namespace Monitor {
 
-class MeetingHandler {
+class MeetingHandler : public MsgHandler {
 public:
     MeetingHandler();
     bool CreateMeeting(const std::string&, const std::string&);
     MeetingServerInfo JoinMeeting(const std::string&, const std::string&, int);
+    bool DeleteMeeting(const std::string&);
     bool LogIn(const User&);
     virtual ~MeetingHandler();
 private:
@@ -36,7 +36,6 @@ private:
     int GetDataRef(const std::string&);
 
     std::hash_map monitor_updater_<std::string, RCF::RcfServer>;
-    DBMANAGER::DBManager* db_manager_;
 };
 }  // Monitor
 }  // Server
