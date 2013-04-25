@@ -14,6 +14,8 @@
 #include "../DBManager/DBManager.h"
 #include "../message.pb.h"
 #include "../Monitor/Handler.h"
+#include "../Monitor/MeetingHandler.h"
+#include "../DrawOperation/DrawOperation.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
@@ -22,12 +24,13 @@ namespace DataProvider {
 
 class DocumentHandler : public Kingslanding::OnlineWhiteBoard::Server::Monitor::MsgHandler{
 public:
-    DocumentHandler();
+    DocumentHandler(MeetingHandler&);
     Document GetCurrentDocument(const std::string&);
     DocumentList GetHistorySnapshots(const std::string&);
     Document GetDocument(const std::string&, int);
     virtual ~DocumentHandler();
-
+private:
+    MeetingHandler* meeting_handler;
 };
 }  // DataProvider
 }  // Server

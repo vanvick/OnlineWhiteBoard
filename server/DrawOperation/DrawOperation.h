@@ -10,8 +10,10 @@
 #ifndef KINGSLANDING_ONLINEWHITEBOARD_SERVER_DRAWOPERATION_DRAWOPERATION_H_
 #define KINGSLANDING_ONLINEWHITEBOARD_SERVER_DRAWOPERATION_DRAWOPERATION_H_
 
-#include<opencv/highgui.h>
-#include<opencv2/core/core.hpp>
+#include <opencv/highgui.h>
+#include <opencv2/core/core.hpp>
+#include <string>
+#include <time.h>
 #include "../message.pb.h"
 #include "./DrawClass.h"
 #include "./DrawRect.h"
@@ -30,14 +32,14 @@ namespace Server {
 namespace DrawOperation {
 class DrawOperation {
 public:
-    explicit DrawOperation(int meeting_id);
+    explicit DrawOperation(std::string meeting_id);
     ~DrawOperation();
     void Draw(Operation op);
-    void SaveAsBmp();
+    std::string SaveAsBmp();
     void Show();
 
 private:
-    int meeting_id_;
+    std::string meeting_id_;
     int a_;
     int b_;
     int color_;

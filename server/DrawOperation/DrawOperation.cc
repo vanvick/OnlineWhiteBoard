@@ -16,7 +16,7 @@ namespace Kingslanding {
 namespace OnlineWhiteBoard {
 namespace Server {
 namespace DrawOperation {
-DrawOperation::DrawOperation(int meeting_id) {
+DrawOperation::DrawOperation(std::string meeting_id) {
   meeting_id_ = meeting_id;
   a_ = 0;
   b_ = 0;
@@ -109,8 +109,12 @@ void DrawOperation::Show() {
   cv::waitKey(0);
 }
 
-void DrawOperation::SaveAsBmp() {
-  cv::imwrite("b.bmp", picture_);
+std::string DrawOperation::SaveAsBmp() {
+  time_t now =time(NULL);
+  std::string now_time = ctime(&now);
+  std::string path = "/home/vanvick/picture/"+meeting_id_+"+"+now_time+".bmp";
+  cv::imwrite(path, picture_);
+  return path;
 }
 }  // DrawOperation
 }  // ServerOperation op2;
@@ -118,7 +122,7 @@ void DrawOperation::SaveAsBmp() {
 }  // Kingslanding
 
 int main() {
-  Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation* d = new  Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation(1) ;
+  Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation* d = new  Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation("fl570") ;
      Operation  op;
     op.set_serial_number(1);
    Operation_OperationData*  data;
@@ -193,7 +197,7 @@ int main() {
    position1->set_x(90);
    position1->set_y(100);
    d->Draw(op4);
-   d->Show();
+   //d->Show();
    d->SaveAsBmp();
    return 0;
-}*/
+}
