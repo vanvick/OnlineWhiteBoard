@@ -121,7 +121,7 @@ std::string DrawOperation::SaveAsBmp() {
 }  // OnlineWhiteBoard
 }  // Kingslanding
 
-int main() {
+/*int main() {
   Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation* d = new  Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation("fl570") ;
      Operation  op;
     op.set_serial_number(1);
@@ -200,4 +200,4 @@ int main() {
    //d->Show();
    d->SaveAsBmp();
    return 0;
-}
+}*/
