@@ -39,25 +39,9 @@ TEST_F(DrawPointTest, set) {
     EXPECT_EQ(50, point->xa_);
     EXPECT_EQ(50, point->ya_);
 }
-
-TEST_F(DrawPointTest, Draw) {
-    cv::Mat m=cv::Mat(500, 500, CV_8UC3, cv::Scalar(255, 255, 255));
-    point->set(1,  1, 100, 100);
-    point->Draw(m);
-    IplImage img = IplImage(m);
-    IplImage *pImage = &img;
-    EXPECT_EQ(0, cvGet2D(pImage, 100, 100).val[0]);
-    EXPECT_EQ(0, cvGet2D(pImage, 100, 100).val[1]);
-    EXPECT_EQ(0, cvGet2D(pImage, 100, 100).val[2]);
-}
 }  // DrawOperation
 }  // Server
 }  // OnlineWhiteBoard
 }  // Kingslanding
 
-int main(int argc, char **argv) {
-  std::cout << "Running main() from gtest_main.cc\n";
-  testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}
   

@@ -32,6 +32,7 @@ cv::Scalar DrawClass::SetColor(int color) {
       return cv::Scalar(0, 0, 255);  // 颜色为红色
       break;
   }
+  return cv::Scalar(255, 255, 255);
 }
 }  // DrawOperation
 }  // Server

@@ -22,7 +22,7 @@ namespace Monitor {
 class HbHandler : public MsgHandler {
 public:
     HbHandler();
-    HeartReturnPackage GetUserState(HeartBeatSendPackage& h);
+    HeartReturnPackage GetUserState(HeartBeatSendPackage& );
     virtual ~HbHandler();
 private:
 #ifdef DEBUG

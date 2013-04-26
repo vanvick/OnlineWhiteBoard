@@ -12,6 +12,8 @@
 #define DBMANAGER Kingslanding::OnlineWhiteBoard::Server::DBManager
 
 #include "./Handler.h"
+#include "./MeetingHandler.h"
+#include "../common.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
@@ -20,13 +22,19 @@ namespace Monitor {
 
 class UserHandler : public MsgHandler {
 public:
-    UserHandler();
+    UserHandler(MeetingHandler&);
     virtual ~UserHandler();
     bool TransferAuth(const std::string&, const std::string&);
     bool RequestAuth(const std::string&, const std::string&);
     UserList GetCurrentUserList(const std::string&);
 private:
     UserList UserListFactory(DBMANAGER::UserInfo*, int&);
+#ifdef DEBUG
+    FRIEND_TEST(UserHandlerTest, TransferAuth);
+    FRIEND_TEST(UserHandlerTest, RequestAuth);
+    FRIEND_TEST(UserHandlerTest, GetCurrentUserList);
+#endif
+    MeetingHandler* Meeting_Handler;
 };
 }  // Monitor
 }  // Server

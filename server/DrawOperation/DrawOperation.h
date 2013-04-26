@@ -14,6 +14,7 @@
 #include <opencv2/core/core.hpp>
 #include <string>
 #include <time.h>
+#include "../common.h"
 #include "../message.pb.h"
 #include "./DrawClass.h"
 #include "./DrawRect.h"
@@ -33,12 +34,15 @@ namespace DrawOperation {
 class DrawOperation {
 public:
     explicit DrawOperation(std::string meeting_id);
-    ~DrawOperation();
     void Draw(Operation op);
     std::string SaveAsBmp();
     void Show();
 
 private:
+#ifdef DEBUG
+    FRIEND_TEST(DrawOperationTest, SaveAsBmp);
+#endif
+    
     std::string meeting_id_;
     int a_;
     int b_;
