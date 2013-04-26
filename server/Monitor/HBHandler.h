@@ -12,6 +12,7 @@
 #define DBMANAGER Kingslanding::OnlineWhiteBoard::Server::DBManager
 
 #include "./Handler.h"
+#include "../common.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {
@@ -23,6 +24,10 @@ public:
     HbHandler();
     HeartReturnPackage GetUserState(HeartBeatSendPackage& h);
     virtual ~HbHandler();
+private:
+#ifdef DEBUG
+    FRIEND_TEST(HBHandlerTest, GetUserState);
+#endif
 };
 }  // Monitor
 }  // server

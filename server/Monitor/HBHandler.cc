@@ -20,7 +20,16 @@ HeartReturnPackage HbHandler::GetUserState(HeartBeatSendPackage& h)
   int state = 0;
   state = db_manager_->GetUserState(meeting_id, user_name);
   HeartReturnPackage heart_return_package;
-  heart_return_package.set_identity(state);
+  switch(state) {
+    case 1:
+      heart_return_package.set_identity(PARTICIPANTS);
+      break;
+    case 2:
+      heart_return_package.set_identity(CANDIDATE);
+      break;
+    case 3:
+      heart_return_package.set_identity(HOST);
+  }
   return heart_return_package;
 }
 }  // Monitor
