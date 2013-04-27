@@ -9,9 +9,6 @@
 #ifndef KINGSLANDING_ONLINEWHITEBOARD_SERVER_MONITOR_MEETINGHANDLER_H_
 #define KINGSLANDING_ONLINEWHITEBOARD_SERVER_MONITOR_MEETINGHANDLER_H_
 
-#define DBMANAGER Kingslanding::OnlineWhiteBoard::Server::DBManager
-#define MEMCACHE Kingslanding::OnlineWhiteBoard::Server::DataProvider::MemoryCache
-#define DRAWOP Kingslanding::OnlineWhiteBoard::Server::DrawOperation::DrawOperation
 #define PORTMIN 10000
 #define PORTMAX 10250
 
@@ -23,7 +20,6 @@
 #include "../DataProvider/MemoryCache.h"
 #include "../RcfDefine.h"
 #include "../DataUpdater/Updater.h"
-#include "../DrawOperation/DrawOperation.h"
 
 namespace Kingslanding {
 namespace OnlineWhiteBoard {

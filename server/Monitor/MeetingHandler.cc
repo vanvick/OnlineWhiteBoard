@@ -134,7 +134,6 @@ bool MeetingHandler::DeleteMeeting(const std::string& meeting_id) {
     port_.push(port);
     lock.unlock();
   }
-  
   delete write_acc->second->server;
   delete write_acc->second->up_ref;
   delete write_acc->second;
@@ -170,8 +169,11 @@ bool MeetingHandler::TransferHostDraw(const std::string& meeting_id) {
   bool has_meeting = monitor_updater_.find(read_acc, meeting_id);
   if (!has_meeting) {
     return false;
+  }
   std::string path = read_acc->second->draw_oper->SaveAsBmp();
   read_acc.release();
+  if(path == "")
+    return false;
   db_manager_ -> AddDocument(meeting_id, path);
   return true;
 }
